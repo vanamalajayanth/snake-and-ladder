@@ -60,12 +60,12 @@ class Game {
 
     this.players.player1 = { positions: [1], ele: player1 };
     this.players.player2 = { positions: [1], ele: player2 };
-    this.players.player3 = { positions: [1], ele: player3 };
-    this.players.player4 = { positions: [1], ele: player4 };
+    // this.players.player3 = { positions: [1], ele: player3 };
+    // this.players.player4 = { positions: [1], ele: player4 };
   }
 
   changePlayer() {
-    if (this.currentPlayer === 4) {
+    if (this.currentPlayer === 2) {
       this.currentPlayer = 0;
     }
     this.currentPlayer++;
